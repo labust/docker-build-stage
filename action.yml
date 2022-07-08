@@ -1,6 +1,6 @@
 name: "Build and push docker stage"
 description: "Builds and pushes stages from a docker file"
-inputs:/new
+inputs:
    stage-name:
      required: true
      description: "The name of the stage in the Docker multi-stage file."
